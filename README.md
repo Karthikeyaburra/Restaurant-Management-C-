@@ -1,10 +1,10 @@
-Restaurant Order Management System (Queue Based)
+# Restaurant Order Management System (Queue Based)
 
 This project is a backend restaurant order management system built using C++ and the Crow web framework. It demonstrates the practical use of the Queue data structure by simulating how real-world restaurant orders are handled, prioritized, prepared, and completed.
 
 The system runs entirely in memory and exposes all functionality through REST APIs, making it easy to connect with any frontend.
 
-Project Overview
+# Project Overview
 
 Restaurants handle multiple types of orders at the same time such as:
 
@@ -24,7 +24,7 @@ Dine-in (lowest priority)
 
 Once an order is picked, it moves into a preparing queue, and after completion, it moves into a completed queue.
 
-Key Features
+# Key Features
 
 Place new restaurant orders
 
